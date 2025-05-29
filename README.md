@@ -4,7 +4,7 @@
 - [Abstract](#Abstract)
 - [Replication Workflows in **R** and **Stata**](#Replication-Workflows-in-R-and-Stata)
 - [Folder Structure](#Folder-Structure)
-- [Software and Tools]
+- [Software and Tools](#Software-and-Tools)
 - [Instructions to Run the **Stata** Workflow](#Instructions-to-Run-the-Stata-Workflow)
 - [Instructions to Run the **R** Workflow](#Instructions-to-Run-the-R-Workflow)
 - [Contact Information](#Contact-Information)
