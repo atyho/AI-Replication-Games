@@ -15,3 +15,7 @@ This article evaluates the effectiveness of varying levels of human and artifici
 These results underscore both the strengths and current limitations of LLM-based assistance -- specifically OpenAI’s GPT-4/4o and 4.5/o3 as deployed in study I and II, respectively -- in research reproduction. While these findings are bounded by the capabilities of the specific models used, the experimental conditions, and the time frame of study, they provide an important benchmark for what was feasible at the time. They also suggest that, in this context, these models -- despite their sophistication -- were not yet able to replace or significantly enhance human judgment in complex empirical workflows. While newer versions of AI tools narrowed this gap, as of now, meaningful human involvement remains essential for accurate and reliable reproducibility assessments in quantitative social science.
 
 ## Replication Workflows in **R** and Stata
+
+
+## Contact Information
+For more details about the replication process or to address specific issues, please refer to the corresponding author information provided in the manuscript. Alternatively, consult the supplementary materials for additional insights.
