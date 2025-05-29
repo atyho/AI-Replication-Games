@@ -22,6 +22,35 @@ The [code folder](https://github.com/atyho/AI-Replication-Games/tree/main/code) 
 While the Stata scripts use .dta data and the R scripts use .rds, both datasets are derived from the same raw source files provided in the [data folder](https://github.com/atyho/AI-Replication-Games/tree/main/data).
 
 ## Folder Structure
+The project is organized as follows:
+- [data/](https://github.com/atyho/AI-Replication-Games/tree/main/data): This folder contains all the raw data files necessary for analysis.
+-- *AI games.xlsx*: The raw data set used for the analysis of the study.
+-- *AI Games - Prompts Information.xlsx*: Raw prompt data used for study analysis.
+-- *AI games.dta*: The primary data set processed used for the study’s analysis in Stata format.
+-- *AI games.rds*: The primary data set processed used for the study’s analysis in R format.
+
+- [code/](https://github.com/atyho/AI-Replication-Games/tree/main/code): Contains all scripts required for data cleaning, processing, and analysis.
+– master: The master script that integrates all steps of the workflow and facilitates full replication.
+– cleaning: Script to clean and preprocess raw data, ensuring it is ready for analysis.
+– main: Script to produce the primary regression tables for the study.
+– logit poisson: Script to produce the primary regression tables for the study using poisson
+and logit. There are minor differences in the SEs produced by the Stata and R versions due
+to the way each software handles singletons.
+– full controls: Script to produce the primary regression tables for the study, displaying all
+control variables.
+– softwares: Script to produce the primary regression tables for the study by software.
+– branches: Script to process and analyze differences across experimental branches. Only
+available in R.
+– balance: Script to generate balance tables across experimental branches. Only available in
+R. Only available in R.
+– gpt skill: Script to process and analyze differences across ChatGPT experience levels. Only
+available in R. Only available in R.
+– prompts: Script to process and analyze differences across ChatGPT usage levels. Only available
+in R. Only available in R.
+– time to first: Script to produce the density figures.
+– reproduction rates: Script to produce the over-time figures.
+• output/: This folder contains the results of the analyzes, including logs and outputs.
+– master_log.log: A comprehensive log file capturing the execution of the main script.
 
 ## Software and Tools
 
