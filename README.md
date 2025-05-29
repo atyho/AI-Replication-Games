@@ -141,7 +141,7 @@ To reproduce specific components of the analysis, you may source the correspondi
 - `source("code/R code/branches.R")` for branch table
 - `source("code/R code/time to first.R")` for figures
 
-All outputs are saved automatically in the output/ folder.
+All outputs are saved automatically in the [output/](https://github.com/atyho/AI-Replication-Games/tree/main/output) folder.
 
 ## Contact Information
 For more details about the replication process or to address specific issues, please refer to the corresponding author information provided in the manuscript. Alternatively, consult the supplementary materials for additional insights.
