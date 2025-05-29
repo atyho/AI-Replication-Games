@@ -2,7 +2,7 @@
 
 ## Table of Content
 - [Abstract](#Abstract)
-- [Replication Workflows in **R** and **Stata**](#Replication-Workflows-in-**R**-and-Stata)
+- [Replication Workflows in **R** and **Stata**](#Replication-Workflows-in-R-and-Stata)
 - Folder Structure
 - Software and Tools
 - Instructions to Run the Stata Workflow
