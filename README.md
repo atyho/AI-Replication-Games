@@ -3,11 +3,11 @@
 ## Table of Content
 - [Abstract](#Abstract)
 - [Replication Workflows in **R** and **Stata**](#Replication-Workflows-in-R-and-Stata)
-- Folder Structure
-- Software and Tools
-- Instructions to Run the Stata Workflow
-- Instructions to Run the R Workflow
-- Contact Information
+- [Folder Structure](#Folder-Structure)
+- [Software and Tools]
+- [Instructions to Run the **Stata** Workflow](#Instructions-to-Run-the-Stata-Workflow)
+- [Instructions to Run the **R** Workflow](#Instructions-to-Run-the-R-Workflow)
+- [Contact Information](#Contact-Information)
 
 ## Abstract
 This article evaluates the effectiveness of varying levels of human and artificial intelligence (AI) integration in reproducibility assessments of quantitative social science research. In study I which was conducted in 2024, we computationally reproduced quantitative results from published articles in the social sciences with 288 researchers, randomly assigned to 103 teams across three groups -- human-only teams, AIassisted teams and teams whose task was to minimally guide an AI to conduct reproducibility checks (the “AI-led” approach). In study II which was conducted in 2025, 95 researchers participated again and were randomly assigned to 34 teams. Findings reveal that when working independently, human teams matched the reproducibility success rates of teams using AI assistance, while both groups substantially outperformed AI-led approaches (with human teams achieving 52 percentage points higher success rates than AI-led teams, p < 0.001). Human teams were particularly effective at identifying serious problems in the analysis: on average they found significantly more major errors compared to both AI-assisted teams (0.7 more errors per team, p = 0.017) and AI-led teams (1.1 more errors per team, p < 0.001). AI-assisted teams demonstrated an advantage over more automated approaches, detecting 0.4 more major errors per team than AI-led teams (p = 0.029), though still significantly fewer than human-only teams. Finally, both human and AI-assisted teams significantly outperformed AI-led approaches in both proposing (25 percentage points difference, p = 0.017) and implementing (33 percentage points difference, p = 0.005) comprehensive robustness checks.
