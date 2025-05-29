@@ -54,35 +54,35 @@ The project is organized as follows:
    
 #### R Packages
 To run the R scripts, ensure the following packages are installed:
-- here: For robust and reproducible file paths. V1.0.1
-- haven: For reading .dta files. V2.5.4
-- readxl: For importing Excel files. V1.4.5
-- rmarkdown: For rendering R Markdown documents. V2.29
-- dplyr: For efficient data manipulation. V1.1.4
-- tidyr: For reshaping and tidying data. V1.3.1
-- stringr: For string operations. V1.5.1
-- forcats: For working with factors. V1.0.0
-- janitor: For cleaning variable names and tabulations. V2.2.1
-- lubridate: For working with date variables. V1.9.4
-- tibble: For working with tibbles (modern data frames). V3.2.1
-- purrr: For functional programming and iteration. V1.0.4
-- car: For regression diagnostics and tools. V3.1.3
-- broom: For tidying model outputs. V1.0.8
-- fixest: For running regression models with fixed effects. V0.12.1
-- margins: For calculating marginal effects. V0.3.28
-- sandwich: For robust standard errors. V3.1.1
-- lmtest: For hypothesis testing in linear models. V0.9.40
-- multcomp: For multiple comparisons in regression models. V1.4.28
-- kableExtra: For formatting LaTeX and HTML tables. V1.4.0
-- ggplot2: For creating publication-quality graphics. V3.5.2
+- **here**: For robust and reproducible file paths. *V1.0.1*
+- **haven**: For reading .dta files. *V2.5.4*
+- **readxl**: For importing Excel files. *V1.4.5*
+- **rmarkdown**: For rendering R Markdown documents. *V2.29*
+- **dplyr**: For efficient data manipulation. *V1.1.4*
+- **tidyr**: For reshaping and tidying data. *V1.3.1*
+- **stringr**: For string operations. *V1.5.1*
+- **forcats**: For working with factors. *V1.0.0*
+- **janitor**: For cleaning variable names and tabulations. *V2.2.1*
+- **lubridate**: For working with date variables. *V1.9.4*
+- **tibble**: For working with tibbles (modern data frames). *V3.2.1*
+- **purrr**: For functional programming and iteration. *V1.0.4*
+- **car**: For regression diagnostics and tools. *V3.1.3*
+- **broom**: For tidying model outputs. *V1.0.8*
+- **fixest**: For running regression models with fixed effects. *V0.12.1*
+- **margins**: For calculating marginal effects. *V0.3.28*
+- **sandwich**: For robust standard errors. *V3.1.1*
+- **lmtest**: For hypothesis testing in linear models. *V0.9.40*
+- **multcomp**: For multiple comparisons in regression models. *V1.4.28*
+- **kableExtra**: For formatting LaTeX and HTML tables. *V1.4.0*
+- **ggplot2**: For creating publication-quality graphics. *V3.5.2*
 
 #### Stata Packages
 Before running the scripts, install the following Stata packages:
-- reghdfe: For high-dimensional fixed-effects regressions. V6.12.3.
-- ftools: For fast data manipulation. V2.49.1.
-- estout: For exporting regression results. V3.17.
-- ppmlhdfe: For For high-dimensional fixed-effects poisson regressions. V2.3.0
-- rsource: To integrate R scripts within the Stata workflow. Unique version.
+- **reghdfe**: For high-dimensional fixed-effects regressions. *V6.12.3*
+- **ftools**: For fast data manipulation. *V2.49.1*
+- **estout**: For exporting regression results. *V3.17*
+- **ppmlhdfe**: For For high-dimensional fixed-effects poisson regressions. *V2.3.0*
+- **rsource**: To integrate R scripts within the Stata workflow. Unique version.
 
 ## Instructions to Run the **Stata** Workflow
 
