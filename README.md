@@ -85,20 +85,22 @@ Before running the scripts, install the following Stata packages:
 - rsource: To integrate R scripts within the Stata workflow. Unique version.
 
 ## Instructions to Run the **Stata** Workflow
-1. Set Up Paths
-To ensure the scripts run successfully, update the paths in master.do to reflect your local directory
-structure:
-global path "[your/local/project/path]"
-cd "$path"
+### 1. Set Up Paths
+To ensure the scripts run successfully, update the paths in master.do to reflect your local directory structure:
+
+`global path "[your/local/project/path]"` and then `cd "$path"`
+
 Additionally, configure the R path variable to point to your local R installation:
-global rpath "/path/to/R"
-2. Run the Master Script
+
+`global rpath "/path/to/R"`
+
+### 2. Run the Master Script
 To execute the entire workflow:
 1. Open Stata.
 2. Run the master.do file. This script integrates all components and automates the analysis workflow,
 including:
-3
-3. Reproduce Specific Steps
+
+### 3. Reproduce Specific Steps
 If needed, you can run specific components of the analysis separately:
 • For data cleaning:
 do "code/cleaning.do"
@@ -107,7 +109,7 @@ do "code/main table.do"
 • For R-based analysis, open R and execute:
 source("code/branches table.R")
 source("code/balance table.R")
-4. Check Outputs
+### 4. Check Outputs
 The results of each step will be stored in the output/ folder. For a detailed record of the workflow, refer
 to master_log.log.
 
