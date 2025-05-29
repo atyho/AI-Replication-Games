@@ -109,20 +109,20 @@ If needed, you can run specific components of the analysis separately:
 The results of each step will be stored in the [output/](https://github.com/atyho/AI-Replication-Games/tree/main/output) folder. For a detailed record of the workflow, refer to **master_log.log**.
 
 ## Instructions to Run the **R** Workflow
-1. Set Up Paths
+### 1. Set Up Paths
 Before running the R workflow, ensure that the working directory in master.R reflects the path to the
 project folder on your local machine:
 main_path <- [your/local/project/path]
 setwd(main_path)
 This path is used consistently throughout the script via the here() package.
-2. Install Required Packages
+### 2. Install Required Packages
 Make sure all required packages are installed (see R Packages section above). You can install any missing
 ones with:
 install.packages(c("here", "haven", "rmarkdown", "readxl", "dplyr",
 "stringr", "tidyr", "forcats", "janitor", "lubridate",
 "fixest", "purrr", "broom", "tibble", "car", "margins",
 "sandwich", "lmtest", "multcomp", "kableExtra", "ggplot2"))
-3. Run the Master Script
+### 3. Run the Master Script
 To execute the full replication workflow in R:
 1. Open R or RStudio.
 2. Run the file master.R, located in the main directory.
@@ -133,7 +133,7 @@ To execute the full replication workflow in R:
 usage).
 • Create key figures (e.g., reproduction rates, time to first error).
 • Write a complete log of the workflow to output/master_log.log.
-4. Reproduce Specific Steps
+### 4. Reproduce Specific Steps
 To reproduce specific components of the analysis, you may source the corresponding scripts individually.
 For example:
 source("code/R code/cleaning.R") # Data cleaning
@@ -141,6 +141,6 @@ source("code/R code/main.R") # OLS regressions
 source("code/R code/branches.R") # Branch table
 source("code/R code/time to first.R") # Figures
 All outputs are saved automatically in the output/ folder.
-``test``
+
 ## Contact Information
 For more details about the replication process or to address specific issues, please refer to the corresponding author information provided in the manuscript. Alternatively, consult the supplementary materials for additional insights.
