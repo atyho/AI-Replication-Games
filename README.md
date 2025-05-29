@@ -21,5 +21,13 @@ The [code folder](https://github.com/atyho/AI-Replication-Games/tree/main/code) 
 
 While the Stata scripts use .dta data and the R scripts use .rds, both datasets are derived from the same raw source files provided in the [data folder](https://github.com/atyho/AI-Replication-Games/tree/main/data).
 
+## Folder Structure
+
+## Software and Tools
+
+## Instruction to Run the **Stata** Workflow
+
+## Instruction to Run the **R** Workflow
+
 ## Contact Information
 For more details about the replication process or to address specific issues, please refer to the corresponding author information provided in the manuscript. Alternatively, consult the supplementary materials for additional insights.
