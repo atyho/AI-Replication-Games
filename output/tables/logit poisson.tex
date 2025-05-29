@@ -1,0 +1,50 @@
+\def\sym#1{\ifmmode^{#1}\else:math:text$^{#1}:math:text$\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+\multicolumn{7}{l}{\textbf{Panel A: Study 1}}\\
+& (1) & (2) & (3) & (4) & (5) & (6)\\
+                    &Reproduction   &\shortstack[c]{Minor\\errors}   &\shortstack[c]{Major\\errors}   &\shortstack[c]{Two good\\robustness}   &\shortstack[c]{Ran one\\robustness}   &\shortstack[c]{Ran two\\robustness}   \\
+\hline
+main                &               &               &               &               &               &               \\
+AI-Assisted         &      -0.724   &      -0.454** &      -0.667** &      -0.388   &      -0.959   &      -0.025   \\
+                    &     (0.977)   &     (0.189)   &     (0.261)   &     (1.047)   &     (1.531)   &     (0.826)   \\
+                    &[-2.640; 1.192]   &[-0.823; -0.084]   &[-1.179; -0.155]   &[-2.440; 1.665]   &[-3.959; 2.041]   &[-1.644; 1.593]   \\
+AI-Led              &      -6.478***&      -1.177***&      -1.802***&      -2.480** &      -3.701***&      -1.777** \\
+                    &     (1.433)   &     (0.200)   &     (0.365)   &     (1.069)   &     (1.114)   &     (0.805)   \\
+                    &[-9.287; -3.669]   &[-1.568; -0.786]   &[-2.517; -1.087]   &[-4.576; -0.384]   &[-5.885; -1.517]   &[-3.355; -0.199]   \\
+\hline
+Model               &       Logit   &     Poisson   &     Poisson   &       Logit   &       Logit   &       Logit   \\
+Controls            &  \checkmark   &  \checkmark   &  \checkmark   &  \checkmark   &  \checkmark   &  \checkmark   \\
+Mean of dep. var    &       0.703   &       1.000   &       0.893   &       0.662   &       0.743   &       0.616   \\
+p-val (AI-Assisted vs. AI-Led)&       0.000   &       0.003   &       0.004   &       0.024   &       0.081   &       0.009   \\
+Obs.                &          91   &          98   &          84   &          65   &          74   &          86   \\
+\hline\\
+\multicolumn{7}{l}{\textbf{Panel B: Study 2 combined}}\\
+& (1) & (2) & (3) & (4) & (5) & (6)\\
+                    &Reproduction   &\shortstack[c]{Minor\\errors}   &\shortstack[c]{Major\\errors}   &\shortstack[c]{Two good\\robustness}   &\shortstack[c]{Ran one\\robustness}   &\shortstack[c]{Ran two\\robustness}   \\
+\hline
+main                &               &               &               &               &               &               \\
+AI-Assisted         &      -0.721   &      -0.346** &      -0.522** &      -0.462   &       0.044   &       0.278   \\
+                    &     (0.943)   &     (0.165)   &     (0.215)   &     (1.076)   &     (1.435)   &     (0.733)   \\
+                    &[-2.569; 1.127]   &[-0.669; -0.023]   &[-0.944; -0.101]   &[-2.571; 1.647]   &[-2.768; 2.856]   &[-1.160; 1.715]   \\
+AI-Led              &      -5.886***&      -1.059***&      -1.314***&      -2.690** &      -2.657** &      -1.623** \\
+                    &     (1.179)   &     (0.183)   &     (0.311)   &     (1.089)   &     (1.033)   &     (0.682)   \\
+                    &[-8.197; -3.576]   &[-1.418; -0.701]   &[-1.923; -0.705]   &[-4.825; -0.556]   &[-4.682; -0.632]   &[-2.960; -0.285]   \\
+\hline
+Model               &       Logit   &     Poisson   &     Poisson   &       Logit   &       Logit   &       Logit   \\
+Controls            &  \checkmark   &  \checkmark   &  \checkmark   &  \checkmark   &  \checkmark   &  \checkmark   \\
+Mean of dep. var    &       0.736   &       0.894   &       0.839   &       0.709   &       0.773   &       0.692   \\
+p-val (AI-Assisted vs. AI-Led)&       0.000   &       0.000   &       0.013   &       0.018   &       0.058   &       0.003   \\
+Obs.                &         110   &         132   &         118   &          79   &          88   &         117   \\
+\hline\hline
+\multicolumn{7}{p{0.8\textwidth}}{\it{Note:} 
+Standard errors in parentheses, confidence intervals 
+in brackets; human-only branch omitted. 
+The model for One good robustness is not included 
+due to unsuficient observations, preventing it from 
+converging. Marginal effects reported for Logit models.}\\
+\multicolumn{7}{l}{Controls include number of teammates; 
+game–software, skill, and attendance fixed effects.}\\
+\multicolumn{7}{l}{\sym{*} \(p<0.1\), \sym{**} \(p<0.05\),
+ \sym{***} \(p<0.01\)}\\
+\end{tabular}
